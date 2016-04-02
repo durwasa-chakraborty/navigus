@@ -1,0 +1,4125 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os.linux.x86_64",
+  "load": [
+    {
+      "sourceMap": "packages/underscore.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/underscore.js"
+    },
+    {
+      "sourceMap": "packages/meteor.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/meteor.js"
+    },
+    {
+      "sourceMap": "packages/reload.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reload.js"
+    },
+    {
+      "sourceMap": "packages/json.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/json.js"
+    },
+    {
+      "sourceMap": "packages/base64.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/base64.js"
+    },
+    {
+      "sourceMap": "packages/ejson.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ejson.js"
+    },
+    {
+      "node_modules": "npm/logging/node_modules",
+      "sourceMap": "packages/logging.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/logging.js"
+    },
+    {
+      "sourceMap": "packages/routepolicy.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/routepolicy.js"
+    },
+    {
+      "sourceMap": "packages/tracker.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/tracker.js"
+    },
+    {
+      "sourceMap": "packages/deps.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/deps.js"
+    },
+    {
+      "sourceMap": "packages/htmljs.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/htmljs.js"
+    },
+    {
+      "sourceMap": "packages/html-tools.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/html-tools.js"
+    },
+    {
+      "sourceMap": "packages/blaze-tools.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/blaze-tools.js"
+    },
+    {
+      "node_modules": "npm/minifiers/node_modules",
+      "sourceMap": "packages/minifiers.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/minifiers.js"
+    },
+    {
+      "sourceMap": "packages/spacebars-compiler.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/spacebars-compiler.js"
+    },
+    {
+      "sourceMap": "packages/jquery.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/jquery.js"
+    },
+    {
+      "sourceMap": "packages/id-map.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/id-map.js"
+    },
+    {
+      "sourceMap": "packages/ordered-dict.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ordered-dict.js"
+    },
+    {
+      "sourceMap": "packages/random.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/random.js"
+    },
+    {
+      "sourceMap": "packages/geojson-utils.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/geojson-utils.js"
+    },
+    {
+      "sourceMap": "packages/minimongo.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/minimongo.js"
+    },
+    {
+      "sourceMap": "packages/observe-sequence.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/observe-sequence.js"
+    },
+    {
+      "sourceMap": "packages/reactive-var.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reactive-var.js"
+    },
+    {
+      "sourceMap": "packages/blaze.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/blaze.js"
+    },
+    {
+      "sourceMap": "packages/templating.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/templating.js"
+    },
+    {
+      "sourceMap": "packages/spacebars.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/spacebars.js"
+    },
+    {
+      "sourceMap": "packages/ui.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ui.js"
+    },
+    {
+      "sourceMap": "packages/boilerplate-generator.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/boilerplate-generator.js",
+      "assets": {
+        "boilerplate_web.browser.html": "assets/packages/boilerplate-generator/boilerplate_web.browser.html",
+        "boilerplate_web.cordova.html": "assets/packages/boilerplate-generator/boilerplate_web.cordova.html"
+      }
+    },
+    {
+      "sourceMap": "packages/webapp-hashing.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/webapp-hashing.js"
+    },
+    {
+      "node_modules": "npm/webapp/node_modules",
+      "sourceMap": "packages/webapp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/webapp.js"
+    },
+    {
+      "sourceMap": "packages/check.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/check.js"
+    },
+    {
+      "sourceMap": "packages/retry.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/retry.js"
+    },
+    {
+      "sourceMap": "packages/autopublish.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/autopublish.js"
+    },
+    {
+      "sourceMap": "packages/callback-hook.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/callback-hook.js"
+    },
+    {
+      "node_modules": "npm/ddp/node_modules",
+      "sourceMap": "packages/ddp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ddp.js"
+    },
+    {
+      "sourceMap": "packages/follower-livedata.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/follower-livedata.js"
+    },
+    {
+      "sourceMap": "packages/application-configuration.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/application-configuration.js"
+    },
+    {
+      "sourceMap": "packages/binary-heap.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/binary-heap.js"
+    },
+    {
+      "sourceMap": "packages/insecure.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/insecure.js"
+    },
+    {
+      "node_modules": "npm/mongo/node_modules",
+      "sourceMap": "packages/mongo.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/mongo.js"
+    },
+    {
+      "sourceMap": "packages/autoupdate.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/autoupdate.js"
+    },
+    {
+      "sourceMap": "packages/meteor-platform.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/meteor-platform.js"
+    },
+    {
+      "sourceMap": "packages/iron_core.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_core.js"
+    },
+    {
+      "sourceMap": "packages/iron_dynamic-template.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_dynamic-template.js",
+      "assets": {
+        "dynamic_template.html": "assets/packages/iron_dynamic-template/dynamic_template.html"
+      }
+    },
+    {
+      "sourceMap": "packages/iron_layout.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_layout.js",
+      "assets": {
+        "default_layout.html": "assets/packages/iron_layout/default_layout.html"
+      }
+    },
+    {
+      "sourceMap": "packages/iron_url.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_url.js"
+    },
+    {
+      "sourceMap": "packages/iron_middleware-stack.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_middleware-stack.js"
+    },
+    {
+      "sourceMap": "packages/iron_location.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_location.js"
+    },
+    {
+      "sourceMap": "packages/reactive-dict.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reactive-dict.js"
+    },
+    {
+      "sourceMap": "packages/iron_controller.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_controller.js"
+    },
+    {
+      "node_modules": "npm/iron:router/node_modules",
+      "sourceMap": "packages/iron_router.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/iron_router.js",
+      "assets": {
+        "lib/templates.html": "assets/packages/iron_router/lib/templates.html"
+      }
+    },
+    {
+      "sourceMap": "packages/less.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/less.js"
+    },
+    {
+      "sourceMap": "packages/coffeescript.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/coffeescript.js"
+    },
+    {
+      "sourceMap": "packages/mquandalle_jade.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/mquandalle_jade.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "sourceMap": "packages/service-configuration.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/service-configuration.js"
+    },
+    {
+      "sourceMap": "packages/localstorage.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/localstorage.js"
+    },
+    {
+      "sourceMap": "packages/url.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/url.js"
+    },
+    {
+      "sourceMap": "packages/oauth.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/oauth.js",
+      "assets": {
+        "end_of_popup_response.html": "assets/packages/oauth/end_of_popup_response.html",
+        "end_of_redirect_response.html": "assets/packages/oauth/end_of_redirect_response.html"
+      }
+    },
+    {
+      "sourceMap": "packages/accounts-oauth.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-oauth.js"
+    },
+    {
+      "sourceMap": "packages/oauth2.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/oauth2.js"
+    },
+    {
+      "node_modules": "npm/http/node_modules",
+      "sourceMap": "packages/http.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/http.js"
+    },
+    {
+      "sourceMap": "packages/github.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/github.js"
+    },
+    {
+      "sourceMap": "packages/accounts-github.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-github.js"
+    },
+    {
+      "node_modules": "npm/npm-bcrypt/node_modules",
+      "sourceMap": "packages/npm-bcrypt.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/npm-bcrypt.js"
+    },
+    {
+      "sourceMap": "packages/sha.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/sha.js"
+    },
+    {
+      "sourceMap": "packages/srp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/srp.js"
+    },
+    {
+      "node_modules": "npm/email/node_modules",
+      "sourceMap": "packages/email.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/email.js"
+    },
+    {
+      "sourceMap": "packages/accounts-password.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-password.js"
+    },
+    {
+      "sourceMap": "packages/d3js_d3.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/d3js_d3.js"
+    },
+    {
+      "sourceMap": "packages/session.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/session.js"
+    },
+    {
+      "sourceMap": "packages/livedata.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/livedata.js"
+    },
+    {
+      "path": "packages/global-imports.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/node_modules/is-property/is-property.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/lib/ber/errors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/lib/ber/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/lib/ber/reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/lib/ber/types.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/lib/ber/writer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/tst/ber/reader.test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/tst/ber/writer.test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/assert.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/append/constant.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/store/constant.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/store/false.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/store/true.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/sprintf-js/dist/angular-sprintf.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/sprintf-js/dist/sprintf.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/sprintf-js/src/angular-sprintf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/sprintf-js/src/sprintf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/sprintf-js/test/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws4/node_modules/lru-cache/node_modules/yallist/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/lib/util.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf/examples/simple.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf/lib/extsprintf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/lib/links.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/lib/validate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/test/tests.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/examples/levels-verror.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/examples/levels-werror.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/examples/varargs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/examples/verror.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/examples/werror.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/lib/verror.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/lib/dashdash.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/lib/ec.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/lib/sec.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519/lib/core.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519/lib/curve255.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519/lib/dh.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519/lib/eddsa.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519/lib/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/inflight/inflight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/inflight/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/minimatch/minimatch.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/once/once.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/inflight/inflight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/inflight/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/inherits/inherits.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/inherits/inherits_browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/inherits/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/minimatch/minimatch.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/once/once.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/js/function.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/append.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/count.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/help.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/store.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/subparsers.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action/version.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/argument/error.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/argument/exclusive.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/argument/group.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/help/added_formatters.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/help/formatter.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/node_modules/sprintf-js/gruntfile.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/map.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/pseudomap.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws4/node_modules/lru-cache/node_modules/yallist/yallist.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/process-nextick-args/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/process-nextick-args/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/util-deprecate/browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/util-deprecate/node.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/ansi-styles/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/escape-string-regexp/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/commander/node_modules/graceful-readlink/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-function/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-function/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-function/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/jsonpointer/jsonpointer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/jsonpointer/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend/immutable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend/mutable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/test/fixtures/cosmic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/node_modules/pinkie/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/formats/auto.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/formats/pem.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/formats/pkcs1.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/formats/pkcs8.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/formats/rfc4253.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/formats/ssh-private.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/formats/ssh.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/nacl-fast.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/nacl-fast.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/nacl.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/nacl.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/example/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/dash.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/default_bool.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/dotted.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/long.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/short.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/test/whitespace.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/example/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/dash.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/default_bool.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/dotted.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/long.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/short.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/test/whitespace.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/schema/core.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/schema/default_full.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/schema/failsafe.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/schema/json.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/binary.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/bool.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/float.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/int.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/map.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/merge.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/null.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/omap.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/pairs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/seq.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/set.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/str.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type/timestamp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/action_container.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/argparse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/const.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/namespace.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/lib/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/bin/esparse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/example/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/dash.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/default_bool.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/dotted.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/long.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/short.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/test/whitespace.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws4/node_modules/lru-cache/lib/lru-cache.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_duplex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_passthrough.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_readable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_transform.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_writable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/async/dist/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/async/dist/async.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/async/lib/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/test/json-schema.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/test/misc.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/boom/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/boom/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/cryptiles/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/cryptiles/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/hoek/test/escaper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/sntp/examples/offset.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/sntp/examples/time.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/sntp/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/sntp/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/jsprim/lib/jsprim.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/algs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/dhe.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/ed-compat.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/errors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/fingerprint.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/key.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/private-key.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/signature.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/ssh-buffer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/sshpk/lib/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/common.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/glob.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/node_modules/glob/sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/test/inflector/cases.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/test/inflector/inflections-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/test/inflector/methods-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/test/utils/array-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/test/utils/string-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/node_modules/minimist/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/common.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/glob.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/node_modules/glob/sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/fixtures/require-directory/directory/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/errors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/types.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/writer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/tst/ber/reader.test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/tst/ber/writer.test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/common.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/dumper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/exception.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/loader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/mark.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/schema.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml/type.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/argparse/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/node_modules/esprima/esprima.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/node_modules/minimist/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/osenv/node_modules/os-homedir/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/osenv/node_modules/os-tmpdir/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/duplex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/passthrough.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/readable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/transform.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/node_modules/readable-stream/writable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/lib/schemas/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/commander/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/formats.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/require.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/node_modules/sntp/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/node_modules/assert-plus/assert.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/mime-types/node_modules/mime-db/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/graceful-fs/test/max-open.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/graceful-fs/test/open.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/graceful-fs/test/write-then-read.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/bin/cmd.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/examples/pow.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/chmod.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/clobber.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/mkdirp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/opts_fs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/opts_fs_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/perm.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/perm_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/race.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/rel.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/return.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/return_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/root.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/umask.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/test/umask_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/test/foreach.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/test/serialize.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/read/node_modules/mute-stream/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/async/lib/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/deep-equal/example/cmp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/deep-equal/lib/is_arguments.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/deep-equal/lib/keys.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/deep-equal/test/cmp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/lib/defaults.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/lib/inflect.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/lib/inflections.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/lib/methods.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/lib/native.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/i/lib/util.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/bin/cmd.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/examples/pow.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/chmod.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/clobber.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/mkdirp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/opts_fs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/opts_fs_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/perm.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/perm_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/race.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/rel.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/return.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/return_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/root.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/umask.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/test/umask_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/ncp/lib/ncp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/ncp/test/ncp-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/fixtures/require-directory/helloWorld.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/config/cli-config.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/config/npm-config.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/config/syslog-config.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports/console.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports/daily-rotate-file.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports/file.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports/http.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports/memory.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports/transport.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports/webhook.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/async/lib/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/eyes/lib/eyes.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/eyes/test/eyes-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/examples/all-properties.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/examples/array-argument.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/examples/multiple-properties.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/examples/object-argument.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/examples/single-property.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/examples/target-dir.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/lib/pkginfo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/pkginfo/test/pkginfo-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/stack-trace/lib/stack-trace.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/fixtures/scripts/default-exceptions.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/fixtures/scripts/exit-on-error.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/fixtures/scripts/log-exceptions.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/fixtures/scripts/log-string-exception.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/fixtures/scripts/unhandle-exceptions.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/async/lib/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/async/support/sync-package-managers.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/boom/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/boom/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/cryptiles/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/cryptiles/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/test/escaper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/sntp/examples/offset.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/sntp/examples/time.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/sntp/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/sntp/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/asn1/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/graceful-fs/test/max-open.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/graceful-fs/test/open.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/graceful-fs/test/readdir-sort.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/graceful-fs/test/write-then-read.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/bin/js-yaml.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/dist/js-yaml.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/dist/js-yaml.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/lib/js-yaml.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/bin/cmd.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/examples/pow.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/chmod.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/clobber.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/mkdirp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/opts_fs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/opts_fs_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/perm.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/perm_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/race.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/rel.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/return.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/return_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/root.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/umask.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/test/umask_sync.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/osenv/test/unix.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/osenv/test/windows.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/benchmark/benchmark.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/misc/compare.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/misc/perf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/test/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/test/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/combined-stream/lib/combined_stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/form-data/lib/browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/form-data/lib/form_data.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/form-data/lib/populate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/lib/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/lib/error.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/har-validator/lib/runner.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/dist/client.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/example/usage.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/lib/browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/lib/client.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/lib/crypto.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/lib/server.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/lib/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/client.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/crypto.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/readme.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/server.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/uri.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/hawk/test/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/lib/parser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/lib/signer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/lib/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/http-signature/lib/verify.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/json-stringify-safe/test/stringify_test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/node-uuid/benchmark/benchmark.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/node-uuid/test/compare_v1.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/node-uuid/test/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/dist/qs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/lib/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/lib/stringify.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/lib/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/test/parse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/test/stringify.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/qs/test/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/tough-cookie/lib/cookie.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/tough-cookie/lib/memstore.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/tough-cookie/lib/pathMatch.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/tough-cookie/lib/permuteDomain.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/tough-cookie/lib/pubsuffix.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/tough-cookie/lib/store.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/archivers/zip/constants.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/archivers/zip/general-purpose-bit.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/archivers/zip/util.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/archivers/zip/zip-archive-entry.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/archivers/zip/zip-archive-output-stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/node_modules/crc32-stream/lib/crc32-stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/node_modules/crc32-stream/lib/deflate-crc32-stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/node_modules/crc32-stream/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/core-util-is/lib/util.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/isarray/build/build.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/commander/node_modules/graceful-readlink/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/hoek/test/modules/test1.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/hoek/test/modules/test2.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/hoek/test/modules/test3.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/graceful-fs/fs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/graceful-fs/graceful-fs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/graceful-fs/polyfills.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/mkdirp/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/bin.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/node_modules/rimraf/rimraf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/bench.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/sigmund.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/read/node_modules/mute-stream/mute.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/deep-equal/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/mkdirp/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/bin.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/node_modules/rimraf/rimraf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/helpers/macros.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/common.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/config.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/container.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/exception.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/logger.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston/transports.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/cycle/cycle.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/isstream/isstream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/node_modules/isstream/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/stress/http-server.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/console-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/daily-rotate-file-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/file-maxfiles-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/file-maxsize-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/file-open-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/file-stress-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/file-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/memory-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/transport.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/transports/webhook-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/boom/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/cryptiles/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/hoek/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/node_modules/sntp/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/assert-plus/assert.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/ctype/ctf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/ctype/ctio.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/node_modules/ctype/ctype.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/chalk/node_modules/ansi-styles/ansi-styles.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/chalk/node_modules/has-color/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/chalk/node_modules/strip-ansi/cli.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/chalk/node_modules/strip-ansi/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/graceful-fs/fs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/graceful-fs/graceful-fs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/graceful-fs/polyfills.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/object-assign/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/osenv/osenv.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/user-home/cli.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/user-home/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/rng-browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/rng.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/uuid.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/node_modules/xdg-basedir/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws-sign2/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/aws4/aws4.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/bl/bl.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/caseless/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/caseless/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/extend/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/forever-agent/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/is-typedarray/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/is-typedarray/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/isstream/isstream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/isstream/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/json-stringify-safe/stringify.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/mime-types/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/node-uuid/uuid.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/oauth-sign/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/oauth-sign/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/stringstream/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/stringstream/stringstream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/node_modules/tunnel-agent/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/archivers/archive-entry.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/archivers/archive-output-stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/util/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/node_modules/buffer-crc32/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/node_modules/node-int64/Int64.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/node_modules/node-int64/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/core-util-is/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/inherits/inherits.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/inherits/inherits_browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/inherits/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/isarray/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/node_modules/string_decoder/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/hoek/lib/escape.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/hoek/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/hoek/test/escaper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/hoek/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/find-file-sync/spec/fixtures/ignored/nested.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/find-file-sync/spec/fixtures/nested/nested.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/async/lib/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/lodash/dist/lodash.compat.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/lodash/dist/lodash.compat.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/lodash/dist/lodash.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/lodash/dist/lodash.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/lodash/dist/lodash.underscore.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/lodash/dist/lodash.underscore.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/examples/filter-pipe.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/examples/pipe.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/examples/reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/examples/symlink-write.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/abstract.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/collect.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/dir-reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/dir-writer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/file-reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/file-writer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/get-type.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/link-reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/link-writer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/proxy-reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/proxy-writer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/socket-reader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/lib/writer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/test/brace-expand.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/test/caching.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/test/defaults.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/test/extglob-ending-with-state-char.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/examples/all-properties.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/examples/array-argument.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/examples/multiple-properties.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/examples/object-argument.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/examples/single-property.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/examples/target-dir.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/lib/pkginfo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/pkginfo/test/pkginfo-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/read/lib/read.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/revalidator/example/webservice.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/revalidator/lib/revalidator.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/revalidator/test/validator-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/lib/args.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/lib/base64.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/lib/file.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/lib/format.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/file-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/format-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/function-args-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/random-string-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/require-directory-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/utile/test/utile-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/examples/couchdb.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/examples/custom-levels.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/examples/exception.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/examples/raw-mode.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/examples/webhook-post.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/lib/winston.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/cli-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/container-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/custom-timestamp-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/exception-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/helpers.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/log-exception-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/log-rewriter-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/logger-levels-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/logger-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/node_modules/winston/test/winston-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/form-data/lib/form_data.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/example/usage.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/lib/browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/lib/client.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/lib/crypto.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/lib/server.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/lib/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/client.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/crypto.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/message.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/readme.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/server.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/uri.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/test/utils.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/lib/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/lib/parser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/lib/signer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/lib/util.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/http-signature/lib/verify.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/json-stringify-safe/test/stringify_test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/node-uuid/benchmark/benchmark.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/node-uuid/test/compare_v1.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/node-uuid/test/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/auth.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/cookies.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/getProxyFromURI.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/har.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/helpers.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/multipart.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/oauth.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/querystring.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/redirect.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/lib/tunnel.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/test/amd.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/test/gtr.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/test/ltr.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/test/no-module.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/compress-commons/lib/compress-commons.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/chunk.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/compact.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/difference.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/drop.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/dropRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/dropRightWhile.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/dropWhile.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/fill.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/findIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/findLastIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/first.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/flatten.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/flattenDeep.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/head.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/indexOf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/initial.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/intersection.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/last.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/lastIndexOf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/object.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/pull.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/pullAt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/remove.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/rest.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/slice.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/sortedIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/sortedLastIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/tail.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/take.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/takeRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/takeRightWhile.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/takeWhile.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/union.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/uniq.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/unique.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/unzip.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/without.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/xor.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/zip.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array/zipObject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/chain.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/commit.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/lodash.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/plant.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/reverse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/run.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/tap.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/thru.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/toJSON.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/toString.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/value.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/valueOf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/wrapperChain.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/wrapperCommit.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/wrapperPlant.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/wrapperReverse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/wrapperToString.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain/wrapperValue.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/all.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/any.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/at.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/collect.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/contains.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/countBy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/detect.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/each.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/eachRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/every.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/filter.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/find.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/findLast.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/findWhere.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/foldl.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/foldr.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/forEach.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/forEachRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/groupBy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/include.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/includes.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/indexBy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/inject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/invoke.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/map.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/max.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/partition.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/pluck.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/reduce.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/reduceRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/reject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/sample.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/select.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/shuffle.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/size.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/some.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/sortBy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/sortByAll.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection/where.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/date/now.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/after.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/ary.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/backflow.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/before.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/bind.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/bindAll.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/bindKey.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/compose.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/curry.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/curryRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/debounce.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/defer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/delay.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/flow.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/flowRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/memoize.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/negate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/once.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/partial.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/partialRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/rearg.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/spread.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/throttle.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function/wrap.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/LazyWrapper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/LodashWrapper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/MapCache.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/SetCache.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayCopy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayEach.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayEachRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayEvery.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayFilter.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayMap.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayMax.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayMin.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayReduce.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arrayReduceRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/arraySome.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/assignDefaults.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/assignOwnDefaults.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseAssign.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseAt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseBindAll.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseCallback.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseClone.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseCompareAscending.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseCopy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseCreate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseDelay.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseDifference.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseEach.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseEachRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseEvery.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseFill.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseFilter.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseFind.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseFlatten.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseFor.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseForIn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseForOwn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseForOwnRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseForRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseFunctions.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseIndexOf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseInvoke.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseIsEqual.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseIsEqualDeep.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseIsMatch.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseMap.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseMatches.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseMatchesProperty.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseMerge.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseMergeDeep.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseProperty.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/basePullAt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseRandom.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseReduce.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseSetData.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseSlice.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseSome.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseSortBy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseToString.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseUniq.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseValues.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/baseWrapperValue.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/binaryIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/binaryIndexBy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/bindCallback.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/bufferClone.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/cacheIndexOf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/cachePush.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/charAtCallback.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/charsLeftIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/charsRightIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/compareAscending.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/compareMultipleAscending.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/composeArgs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/composeArgsRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createAggregator.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createAssigner.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createBindWrapper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createCache.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createCompounder.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createCtorWrapper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createExtremum.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createHybridWrapper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createPad.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createPartialWrapper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/createWrapper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/deburrLetter.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/equalArrays.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/equalByTag.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/equalObjects.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/escapeHtmlChar.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/escapeStringChar.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/extremumBy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/getData.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/getView.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/indexOfNaN.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/initCloneArray.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/initCloneByTag.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/initCloneObject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/isBindable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/isIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/isIterateeCall.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/isLength.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/isObjectLike.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/isSpace.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/isStrictComparable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/lazyClone.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/lazyReverse.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/lazyValue.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/mapDelete.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/mapGet.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/mapHas.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/mapSet.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/mergeData.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/metaMap.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/pickByArray.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/pickByCallback.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/reEscape.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/reEvaluate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/reInterpolate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/reorder.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/replaceHolders.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/setData.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/shimIsPlainObject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/shimKeys.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/sortedUniq.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/toIterable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/toObject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/trimmedLeftIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/trimmedRightIndex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/unescapeHtmlChar.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/internal/wrapperClone.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/clone.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/cloneDeep.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isArguments.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isArray.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isBoolean.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isDate.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isElement.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isEmpty.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isEqual.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isError.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isFinite.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isFunction.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isMatch.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isNaN.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isNative.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isNull.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isNumber.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isObject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isPlainObject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isRegExp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isString.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isTypedArray.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/isUndefined.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/toArray.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang/toPlainObject.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/number/random.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/assign.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/create.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/defaults.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/extend.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/findKey.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/findLastKey.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/forIn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/forInRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/forOwn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/forOwnRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/functions.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/has.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/invert.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/keys.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/keysIn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/mapValues.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/merge.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/methods.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/omit.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/pairs.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/pick.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/result.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/transform.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/values.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object/valuesIn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/camelCase.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/capitalize.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/deburr.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/endsWith.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/escape.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/escapeRegExp.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/kebabCase.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/pad.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/padLeft.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/padRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/parseInt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/repeat.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/snakeCase.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/startCase.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/startsWith.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/template.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/templateSettings.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/trim.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/trimLeft.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/trimRight.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/trunc.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/unescape.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string/words.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/attempt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/callback.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/constant.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/identity.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/iteratee.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/matches.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/matchesProperty.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/mixin.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/noop.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/property.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/propertyOf.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/range.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/times.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility/uniqueId.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/lib/_stream_duplex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/lib/_stream_passthrough.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/lib/_stream_readable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/lib/_stream_transform.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/lib/_stream_writable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/commander-plus/node_modules/keypress/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/commander-plus/node_modules/keypress/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/commander/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/node_modules/win-spawn/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/find-file-sync/spec/fixtures/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/node_modules/lodash/lodash.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/fstream/fstream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/inherits/inherits.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/inherits/inherits_browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/inherits/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/node_modules/minimatch/minimatch.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/aws-sign/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/cookie-jar/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/cookie-jar/jar.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/forever-agent/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/hawk/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/json-stringify-safe/stringify.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/mime/mime.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/mime/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/node-uuid/uuid.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/oauth-sign/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/oauth-sign/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/qs/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/node_modules/tunnel-agent/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/chalk/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/configstore/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/request/request.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/foot.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/head.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/semver.browser.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/semver.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/node_modules/semver/semver.min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/lib/util/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/array.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/chain.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/collection.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/date.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/function.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/lang.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/number.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/object.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/string.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/support.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/lodash/utility.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/duplex.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/passthrough.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/readable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/transform.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/node_modules/readable-stream/writable.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/async/lib/async.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/colors/themes/winston-dark.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/colors/themes/winston-light.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/lib/build.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/lib/demeteorizer.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/lib/exec.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/lib/find-node-version.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/lib/update-package.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/test/build.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/test/find-node-version.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/demeteorizer/test/update-package.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/find-file-sync/spec/find-spec.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/lib/fs-tools.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/copy-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/find-sorted-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/helper.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/mkdir-sync-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/mkdir-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/move-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/remove-sync-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/remove-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/tmpdir-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/walk-sync-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/test/walk-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/example/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/00-setup.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/basic.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/common.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/ignore-most.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/nested-ignores.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/read-file-order.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/unignore-child.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/test/zz-cleanup.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/node-uuid/benchmark/benchmark.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/node-uuid/test/compare_v1.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/node-uuid/test/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/progress/lib/node-progress.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/add-properties.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/existing-properties.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/history.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/nested-properties-prompt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/old-schema.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/override-validation.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/password.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/prompt-override.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/property-prompt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/simple-prompt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/examples/yes-or-no-prompt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/lib/prompt.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/test/helpers.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/test/interactive-prompt-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/test/macros.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/prompt/test/prompt-test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/lib/copy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/lib/debug.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/lib/getSafe.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/split/examples/pretty.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/split/test/options.asynct.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/split/test/partitioned_unicode.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/split/test/split.asynct.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/split/test/try_catch.asynct.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/example/align.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/example/center.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/example/dotalign.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/example/doubledot.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/example/table.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/test/align.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/test/ansi-colors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/test/center.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/test/dotalign.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/test/doubledot.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/test/table.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/through/test/auto-destroy.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/through/test/buffering.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/through/test/end.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/through/test/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/lib/check.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/update-notifier/lib/update-notifier.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/zip-stream/lib/zip-stream.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/test/test-projects/roadrunner/app.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/addOn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/config.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/env.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/help.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/misc.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/mongo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/project.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/servo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/status.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/commands/user.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/common/api.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/common/colors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/common/error.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/common/help.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/common/io.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/common/userConfig.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/common/verifyPackage.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/controllers/addOn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/controllers/images.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/controllers/mongo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/controllers/project.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/controllers/servo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/controllers/uploader.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/controllers/user.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/librarian/http.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/librarian/librarian.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/librarian/util.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/addOn.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/config.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/env.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/misc.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/mongo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/project.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/servo.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/status.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/routes/user.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/util/errors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/util/progress.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/async/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/colors/colors.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/colors/example.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/colors/test.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/commander-plus/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/find-file-sync/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fs-tools/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/fstream-ignore/ignore.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/node-uuid/uuid.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/progress/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/request/request.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/split/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/text-table/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/through/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/underscore/index.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/underscore/underscore-min.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/node_modules/underscore/underscore.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/lib/modulus.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/test/commmands.user.js"
+    },
+    {
+      "path": "app/lib/node_modules/modulus/test/mockServer.js"
+    },
+    {
+      "sourceMap": "app/lib/nav-route.coffee.js.map",
+      "sourceMapRoot": "lib",
+      "path": "app/lib/nav-route.coffee.js"
+    },
+    {
+      "sourceMap": "app/server/config.coffee.js.map",
+      "sourceMapRoot": "server",
+      "path": "app/server/config.coffee.js"
+    }
+  ]
+}
