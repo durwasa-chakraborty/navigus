@@ -1,5 +1,7 @@
 navRoutes = [
   new NavRoute('dashboard', 'fa-dashboard')
+  new NavRoute('stocks','',{parentName:'dashboard'})
+  new NavRoute('prices','',{parentName:'dashboard'})
   new NavRoute('charts', 'fa-bar-chart-o')
   new NavRoute('chart1', '', {parentName: 'charts'})
   new NavRoute('chart2', '', {parentName: 'charts'})

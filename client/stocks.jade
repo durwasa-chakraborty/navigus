@@ -1,0 +1,11 @@
+template(name="stocks")
+    #page-wrapper
+        .row
+          .col-lg-6
+            h1.page-header Stock Memo
+            input#input_stock(type='text')
+            button#add.btn-success(type='button') Add
+            button#delete.btn-warning(type='button') Hide
+            button#remove.btn-danger(type='button') Remove All           
+            br
+            ul.list-group#list
