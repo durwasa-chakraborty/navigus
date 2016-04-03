@@ -4,10 +4,12 @@ template(name="stocks")
           .col-lg-6
             h1.page-header Stock Memo
             // ./page-header
-            input#input_stock.style-1(type="text", placeholder="Search...")                
+            input#input_stock.style-1(type="text", placeholder="Add elements to stock")                
             button#add.btn-primary.btn-outline(type='button') Add
             button#delete.btn-warning.btn-outline(type='button') Hide
-            button#remove.btn-danger.btn-outline(type='button') Remove All  
+            button#remove.btn-danger.btn-outline(type='button') Remove
             br
             br
-            ul.list-group#list
+            list-group
+                label.checkbox
+                    #list

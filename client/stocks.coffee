@@ -1,6 +1,7 @@
 Template.stocks.events 'click button#add': (event, template) ->
   text = $('#input_stock').val()
-  template.$('#list').append '<li class="list-group-item">' + text + '</li>'
+  template.$('#list')
+          .append '<span class="checkbox-fa"><label class="checkbox"><input type="checkbox">'+ text
   document.getElementById('input_stock').value = '' 
 
 
@@ -9,4 +10,6 @@ Template.stocks.events 'click button#delete': (event,template)->
 
 
 Template.stocks.events 'click button#remove': (event,template) ->
-  template.$('li').remove()
+  template.$(".checkbox input:checked")
+          .parent()
+          .remove();
