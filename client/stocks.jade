@@ -3,9 +3,11 @@ template(name="stocks")
         .row
           .col-lg-6
             h1.page-header Stock Memo
-            input#input_stock(type='text')
-            button#add.btn-success(type='button') Add
-            button#delete.btn-warning(type='button') Hide
-            button#remove.btn-danger(type='button') Remove All           
+            // ./page-header
+            input#input_stock.style-1(type="text", placeholder="Search...")                
+            button#add.btn-primary.btn-outline(type='button') Add
+            button#delete.btn-warning.btn-outline(type='button') Hide
+            button#remove.btn-danger.btn-outline(type='button') Remove All  
+            br
             br
             ul.list-group#list
