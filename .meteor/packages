@@ -16,4 +16,6 @@ accounts-github
 accounts-password
 d3js:d3
 http
+chart:chart
 jquery
+
