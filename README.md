@@ -24,9 +24,11 @@ Requirements :
 
 How to run :
 --------------------------------------------
+*   run the following command `git clone https://github.com/durwasa-chakraborty/navigus`
 *   curl the meteor source by running `curl https://install.meteor.com/ | sh`
-*   Extract the contents of the zipped folder _navigus_ 
+*   `cd path/to/navigus/navigus #notice root is navigus/navigus` 
 *   Run the `meteor` command and open the localhost:3000 on the browser.
+*   If the port 3000 is busy then please run the following command `meteor -port <port number>`
 
 File Structure
 --------------------------------------------
